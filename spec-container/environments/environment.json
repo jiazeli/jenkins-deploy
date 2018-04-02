@@ -1,0 +1,25 @@
+{
+  "REMOTE_HOSTS_PORT": {
+    "test": [
+      {
+        "HOST":"192.168.15.171",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      }
+    ],
+    "dev": [
+      {
+        "HOST":"192.168.15.195",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      }
+    ]
+  },
+  "HEALTH_API":"",
+  "PROJECT_GROUP_ID":"com.td.spec.apama",
+  "PROJECT_ARTIFACT_ID":"spec-container",
+  "PROJECT_TYPE":"jar",
+  "PROJECT_CLASSIFIER":"cdp",
+  "PROJECT_NEXUS_URL":"http://nexus.td.internal/nexus/repository",
+  "PROJECT_NEXUS_REPO":""
+}

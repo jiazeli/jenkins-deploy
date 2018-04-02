@@ -1,0 +1,23 @@
+{
+  "REMOTE_HOSTS_PORT": {
+    "test": [
+      {
+        "HOST":"192.168.15.42",
+        "PORT":"22"
+      }
+    ],
+    "production": [
+      {
+        "HOST":"",
+        "PORT":""
+      }
+    ]
+  },
+  "HEALTH_API":"",
+  "PROJECT_GROUP_ID":"com.td.spec",
+  "PROJECT_ARTIFACT_ID":"dubbo-admin",
+  "PROJECT_TYPE":"war",
+  "PROJECT_CLASSIFIER":"",
+  "PROJECT_NEXUS_URL":"http://nexus.td.internal/nexus/repository",
+  "PROJECT_NEXUS_REPO":""
+}

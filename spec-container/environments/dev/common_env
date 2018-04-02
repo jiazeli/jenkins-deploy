@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+#公共配置
+export WORK_DIR=~/ws
+
+if [ -f ~/.bash_profile ]; then
+    . ~/.bash_profile
+fi
+
+source /etc/profile

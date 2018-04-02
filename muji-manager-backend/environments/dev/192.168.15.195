@@ -1,0 +1,9 @@
+#节点配置
+#export SERVER_PORT=28443
+#export SERVER_HTTP_PORT=8019
+
+source /etc/profile
+
+
+
+

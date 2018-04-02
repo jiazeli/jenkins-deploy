@@ -1,0 +1,44 @@
+{
+  "REMOTE_HOSTS_PORT": {
+    "dev": [
+      {
+        "HOST":"192.168.15.184",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      },
+      {
+        "HOST":"192.168.15.177",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      },
+      {
+        "HOST":"192.168.15.195",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      }
+    ],
+    "test": [
+      {
+        "HOST":"192.168.15.171",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      },
+      {
+        "HOST":"192.168.15.173",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      },{
+        "HOST":"192.168.15.174",
+        "PORT":"22",
+        "WORK_DIR":"/www/ws"
+      }
+    ]
+  },
+  "HEALTH_API":"",
+  "PROJECT_GROUP_ID":"com.td.spec",
+  "PROJECT_ARTIFACT_ID":"spec-apama-plugin-common",
+  "PROJECT_TYPE":"tar.gz",
+  "PROJECT_CLASSIFIER":"assembly",
+  "PROJECT_NEXUS_URL":"http://nexus.td.internal/nexus/repository",
+  "PROJECT_NEXUS_REPO":""
+}

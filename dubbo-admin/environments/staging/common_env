@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+#公共配置
+export WORK_DIR=/www/webapp
+export TOMCAT_DIR=/home/spec/tomcat-dubbo-admin
+export PROJECT_NAME=dubbo-admin
+
+if [ -f ~/.bash_profile ]; then
+    . ~/.bash_profile
+fi

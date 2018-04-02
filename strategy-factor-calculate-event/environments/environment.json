@@ -1,0 +1,33 @@
+{
+  "REMOTE_HOSTS_PORT": {
+    "staging": [
+    ],
+    "test": [
+      {
+        "HOST": "192.168.15.175",
+        "PORT": "22"
+      }
+    ],
+    "dev": [
+      {
+        "HOST": "192.168.15.194",
+        "PORT": "22",
+        "WORK_DIR": "/www/ws"
+      }
+    ],
+    "production": [
+      {
+        "HOST": "47.92.126.22",
+        "PORT": "22",
+        "WORK_DIR": "/www/ws"
+      }
+    ]
+  },
+  "HEALTH_API": "",
+  "PROJECT_GROUP_ID": "com.td.spec.marketdata.factor",
+  "PROJECT_ARTIFACT_ID": "strategy-factor-calculate-event",
+  "PROJECT_TYPE": "jar",
+  "PROJECT_CLASSIFIER": "exec",
+  "PROJECT_NEXUS_URL": "http://nexus.td.internal/nexus/repository",
+  "PROJECT_NEXUS_REPO": ""
+}
