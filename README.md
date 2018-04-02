@@ -1,4 +1,4 @@
-# apama plugin CD脚本
+# CD脚本
 
 
-## apama plugin部署相关
+## 部署相关
